@@ -23,3 +23,25 @@
   text-decoration: none;
   color: grey;
 }
+
+/* END UL GENERALE */
+
+/* START DROPDOWN */
+.menu{
+  height: 100%;
+  position: relative;
+
+}
+
+.menu .dropdown{
+  position: absolute;
+  width: 100px;
+  top: 50px;
+  left: 0px;
+}
+
+
+
+
+
+/* * */
