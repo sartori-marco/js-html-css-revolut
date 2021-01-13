@@ -29,6 +29,10 @@ ul li {
   color: lightgrey;
 }
 
+i{
+  color: lightgrey;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -46,6 +50,10 @@ ul li a img{
 }
 
 ul li a:hover{
+  color: black;
+}
+
+i:hover{
   color: black;
 }
 
@@ -77,6 +85,11 @@ ul li a:hover{
 .dropdown.active{
   display: flex;
 }
+
+.menu i.active{
+  transform: rotate(180deg);
+}
+
 
 
 
